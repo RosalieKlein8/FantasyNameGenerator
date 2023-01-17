@@ -6,10 +6,10 @@ import java.util.Scanner;
 public class FantasyNameGenerator {
 	
 	public static void main(String[] args){
+	
+	    // Variables
 		
-		// Variables
-		
-	    Scanner input = new Scanner(System.in);
+            Scanner input = new Scanner(System.in);
 	    Random random = new Random();
 	    
 	    // Names
@@ -58,8 +58,6 @@ public class FantasyNameGenerator {
 		input.close();
 		
 		System.out.println();
-		System.out.println();
-		
+		System.out.println();		
 	}
-
 }
